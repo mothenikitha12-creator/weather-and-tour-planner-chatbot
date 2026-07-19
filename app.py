@@ -3,7 +3,7 @@ from groq import Groq
 from duckduckgo_search import DDGS
 import requests, gradio as gr
 
-client = Groq(api_key="Gemini API")
+client = Groq(api_key="Gemini_API")
 
 MODEL = "llama-3.3-70b-versatile"
 def weather(city):
